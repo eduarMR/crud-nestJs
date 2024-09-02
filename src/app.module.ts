@@ -7,11 +7,11 @@ import { UserEntity } from './users/entity/user.entity';
   imports: [
     TypeOrmModule.forRoot({
       type:'mysql',
-      host:'193.203.166.193',
+      host:'tu-host',
       port:3306,
-      username:'u247098385_cruduser',
-      password: 'Cruduserone12',
-      database: 'u247098385_crud',
+      username:'tu-usuario',
+      password: 'tu-contraseña',
+      database: 'tu-bd',
       entities: [
         UserEntity
       ],
